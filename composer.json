@@ -1,0 +1,26 @@
+{
+    "name": "hannesvdvreken/rocketeer-hipchat",
+    "authors": [
+        {
+            "name": "Hannes Van De Vreken",
+            "email": "vandevreken.hannes@gmail.com"
+        }
+    ],
+    "description": "A Hipchat room notifier plugin for Rocketeer",
+    "license": "MIT",
+    "keywords": ["Hipchat", "deploy", "rocketeer", "laravel", "notifications"],
+    "require": {
+        "php": ">=5.3.0",
+        "hannesvdvreken/hipchat": "0.1.*"
+    },
+    "require-dev": {
+    	"anahkiasen/rocketeer": "~1",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rocketeer\\Plugins\\Hipchat\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
